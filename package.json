@@ -1,0 +1,20 @@
+{
+  "name": "create-moltin-app",
+  "version": "0.0.0-semantic-release",
+  "description": "Clone a moltin boilerplate",
+  "bin": {
+    "create-moltin": "index.js"
+  },
+  "repository": "https://github.com/moltin/create-moltin-app",
+  "author": "Jamie Barton <hi@jamiebarton.co.uk>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "download-git-repo": "^1.1.0",
+    "download-github-repo": "^0.1.4",
+    "meow": "^5.0.0",
+    "ora": "^3.0.0",
+    "prompts": "^1.1.1"
+  }
+}
